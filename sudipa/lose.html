@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - The Secret Ingredient</title>
+    <link rel="shortcut icon" href="https://i0.wp.com/loseitblog.com/wp-content/uploads/2019/05/60x60.png?fit=60%2C60&ssl=1">
+    <style>
+        #navbar{
+            width: 100%;
+            height: 100px;
+            /* border: 1px solid orange; */
+            display: flex;
+
+        }
+        .left{
+            /* border: 1px solid teal; */
+            /* width: 50%; */
+            width: 70%;
+
+        }
+        .right{
+            /* border: 1px solid teal; */
+            width: 50%;
+            width: 30%;
+            display: flex;
+            padding: 30px;
+            justify-content: flex-end;
+        }
+        .logo{
+            width: 50px;
+            height: 50px;
+            /* border: 1px solid red; */
+            padding: 20px;
+        }
+        .sec{
+            /* padding-left: 35px; */
+            /* border: 1px solid black; */
+            text-align: center;
+            margin: auto;
+        }
+        .sec:nth-child(4){
+            /* border: 1px solid red; */
+            background-color: orange;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+            cursor: pointer;
+        }
+        #main{
+            width: 100%;
+            height: 600px;
+            border: 1px solid orange;
+            margin: auto;
+            background-image: url("https://loseitblog.com/wp-content/uploads/2020/12/1OrangeWave.svg");
+        }
+        #main>h1{
+            font-size: 75px;
+            color: white;
+            text-align: center;
+            margin-top: 115px;
+        }
+        #main>h4{
+            font-size: 30px;
+            color: black;
+            text-align: center;
+            margin-top: -36px;
+
+        }
+        #para{
+            /* margin-top: 50px; */
+            width: 100%;
+            height: 480px;
+            /* border: 1px solid black; */
+            /* margin-bottom: 1px; */
+        }
+        #para>p{
+            /* padding: 20px; */
+            font-size: 24px;
+            margin-top: 100px;
+            margin-left: 23%;
+            width: 60%;
+            height: 100px;
+            /* border: 1px solid red; */
+            /* margin: auto; */
+        }
+        #para>h3{
+            font-size: 25px;
+            text-align: center;
+            color: orange;
+        }
+        #res{
+            width:75%;
+            height: 400px;
+            /* border: 1px solid teal; */
+            margin: auto;
+            display: flex;
+            /* display: grid;
+            grid-template-columns: repeat(3,100px);
+            grid-template-rows:repeat(1,100px); */
+        }
+        .pic{
+            width: 100px;
+            height: 100px;
+            /* border: 1px solid teal; */
+        }
+        .pic>img{
+            width: 100%;
+        }
+     
+       
+        .box1{
+            width: 50%;
+            /* border: 1px solid red; */
+            height: 100%;
+            background-image: url("https://i0.wp.com/loseitblog.com/wp-content/uploads/2022/08/GettyImages-972654870.jpg?resize=1536%2C1024&ssl=1");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            width: 64%;
+            height: 98%;
+        }
+        .box2{
+            width: 50%;
+            /* border: 1px solid red; */
+            display: grid;
+            grid-template-columns: 210px 224px;
+            grid-template-rows: 164px 205px;
+            gap: 3px;
+           
+            
+        }
+      
+    
+        .box2>div:nth-child(1){
+            background-image: url("https://i0.wp.com/loseitblog.com/wp-content/uploads/2022/08/GettyImages-1345519299.jpg?resize=1536%2C1024&ssl=1");
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+       
+       
+        .box2>div>img{
+            width: 100%;
+            height: 100%;
+        }
+        #btn{
+            width: 20%;
+            /* border: 1px solid orange; */
+            margin: auto;
+            height: 50px;
+
+        }
+        #ca{
+            background-color: #F1F1F1;
+            width: auto;
+            margin: auto;
+            height: 600px;
+            margin-top: 1px;
+        }
+        button{
+           width: 100%;
+           height: 100%;
+           border-radius: 10px;
+           background-color: orange;
+           border: none;
+          
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        #Nut>h1{
+            text-align: center;
+            font-size: 40px;
+            margin-top: 100px;
+            color: rgb(45, 45, 112);
+        }
+        #food{
+            /* border: 1px solid red; */
+            height: 380px;
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows:300px ;
+            margin: auto;
+            gap: 20px;
+        }
+        .blog>img{
+            display:grid;
+            width: 100%;
+
+        }
+       #food>div:nth-child(1){
+        height: 330px;
+        width: 100%;
+        margin: auto;
+        /* border: 1px solid blue; */
+        
+       }
+       #food>div:nth-child(2){
+        height: 330px;
+        width: 100%;
+        margin: auto;
+        /* border: 1px solid blue; */
+       }
+       #food>div:nth-child(3){
+        height: 330px;
+        width: 100%;
+        /* border: 1px solid blue; */
+       }
+       #btn1{
+            width: 10%;
+            /* border: 1px solid orange; */
+            margin: auto;
+            height: 50px;
+            margin-bottom: 80px;
+        }
+        #photo{
+            margin: auto;
+            height: 500px;
+            width: 50%;
+            /* border: 1px solid blue; */
+            margin: auto;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+       #cor{
+        text-align: center;
+       }
+       #btn2{
+        width: 10%;
+        /* border: 1px solid red; */
+        margin: auto;
+        height: 50px;
+        margin-bottom: 80px;
+        margin-top: 50px;
+
+       }
+       #bottom{
+        width: 100%;
+        height: 300px;
+        border: 1px solid red;
+       }
+    </style>
+</head>
+<body>
+    <!-- navbar start from here -->
+    <nav id="navbar">
+        <!-- i devide into 2 part left and right one for logo one for other hyperlink -->
+        <div class="left">
+            <!-- here is my logo  -->
+            <div class="logo"><img src="https://i0.wp.com/loseitblog.com/wp-content/uploads/2019/05/60x60.png?fit=60%2C60&ssl=1" alt=""></div>
+
+        </div>
+        <div class="right">
+            <!-- here are the sections -->
+            <div class="sec">Home</div>
+            <div class="sec">Categories</div>
+            <div class="sec">About us</div>
+            <!-- link the page  -->
+            <div class="sec">Signup</div>
+
+        </div>
+
+    </nav>
+    <div id="main">
+        <h1>The Secret Ingredient</h1>
+        <h4>Powered by Lose It!</h4>
+    </div>
+    <div id="para">
+        <p>Here at Lose It!, we know the key to a healthy lifestyle is balance. In this blog, we’re dishing out our Company Updates, Health & Wellness, and Tech & Science articles to give you a healthy dose of all things Lose It!</p>
+        <h3>– Cheers, and enjoy.</h3>
+    </div>
+    <div id="ca">
+    <h1 style="text-align:center">Recipes</h1>
+    <div id="res">
+       
+        <div class="box1">
+            <!-- <img src="https://i0.wp.com/loseitblog.com/wp-content/uploads/2022/08/GettyImages-972654870.jpg?resize=1536%2C1024&ssl=1" alt=""> -->
+            <h3>alpha</h3>
+        </div>
+        <div class="box2">
+            <div><img src="https://i0.wp.com/loseitblog.com/wp-content/uploads/2022/08/GettyImages-1345519299.jpg?resize=1536%2C1024&ssl=1" alt=""></div>
+            <div><img src="https://i0.wp.com/loseitblog.com/wp-content/uploads/2022/08/GettyImages-834880058.jpg?resize=1536%2C1024&ssl=1" alt=""></div>
+            <div><img src="https://i0.wp.com/loseitblog.com/wp-content/uploads/2022/08/GettyImages-1295451882.jpg?resize=1536%2C1025&ssl=1" alt=""></div>
+            <div><img src="https://i0.wp.com/loseitblog.com/wp-content/uploads/2020/06/Miso-Lime-Tuna.jpg?w=1010&ssl=1" alt=""></div>
+            <h3></h3>
+        </div>
+
+    </div>
+    <br><br>
+    <div id="btn">
+        <button><a href="">See More Recipes </a> </button>
+    </div>
+
+    <!-- <div id="food"> -->
+    <div id="Nut">
+        <h1>Nutrition & Fitness</h1>
+    </div>
+    <div id="food">
+        <div class="blog">
+        <img src="https://i0.wp.com/loseitblog.com/wp-content/uploads/2022/08/GettyImages-972654870.jpg?resize=1536%2C1024&ssl=1" alt="">
+        <p>5 Zero Carb, Zero Sugar Hard Seltzers</p>
+        <p>Read More</p>
+        </div>
+        <div class="blog">
+        <img src="https://i0.wp.com/loseitblog.com/wp-content/uploads/2022/08/GettyImages-1351452840.jpg?resize=1536%2C1025&ssl=1" alt="">
+        <p>Should I Weigh Myself Daily?</p>
+        <p>Read More</p>
+        </div>
+        <div class="blog">
+        <img src="https://i0.wp.com/loseitblog.com/wp-content/uploads/2022/08/GettyImages-1173648810.jpg?resize=1536%2C1024&ssl=1" alt="">
+        <p>4 Keto-Friendly, Spoon-Licking, Must-Try Ice Creams</p> 
+        <p>Read More</p>
+    </div>
+        
+    </div>
+    <div id="btn1">
+        <button><a href="">See More</a> </button>
+    </div>
+    <hr>
+    <div id="photo">
+    <img src="https://i0.wp.com/loseitblog.com/wp-content/uploads/2022/02/LoseIt_July21_54.jpg?resize=768%2C513&ssl=1" alt="">
+    </div>
+    <div id="cor">
+        <h1>Corporate Updates</h1>
+        <p>Get the buzz on our company culture, what our employees are up to, and the exciting projects we’re doing to impact the world.</p>
+    </div>
+    <div id="btn2">
+        <button><a href="">Read More</a> </button>
+    </div>
+    <div id="bottom">
+      
+
+
+    </div>
+
+    
+
+</body>
+</html>
