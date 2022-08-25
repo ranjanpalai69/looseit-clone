@@ -1,0 +1,117 @@
+* {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+#vbackground {
+  background-image: url(https://assets.loseit.com/website/onboarding/Wave.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 480px;
+  /* width: 100%; */
+}
+
+#vlogo {
+  width: 16%;
+}
+
+.vheading {
+  color: #173962;
+  font-size: 24px;
+  font-weight: 900;
+  padding: 20px 0;
+  text-align: center;
+  width: 450px;
+  margin: auto;
+}
+
+#vcontent {
+  width: 470px;
+  margin: auto;
+  /* border: 2px solid slateblue; */
+  text-align: center;
+  position: relative;
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#vbutton1 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  background: #ff9400;
+  border-color: #ff9400;
+  width: 200px;
+  margin: 10px auto;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#vback_button {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: none;
+  border: none;
+  color: #173962;
+  cursor: pointer;
+  font-size: 20px;
+  
+
+}
+
+#vbutton1:hover {
+    background:  #fd7e14;
+}
+.disclaimer {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 370px;
+  margin: auto;
+  margin: 30px auto;
+}
+input{
+width: 192px;
+font-size: 17px;
+/* line-height: 24px; */
+/* height: 25px; */
+
+padding: 10px;
+color: #343a40;
+border: 1px solid #CED4DA;
+text-align: center;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+outline: none;
+
+}
+select,option{
+ width: 208px;
+font-size: 17px;
+/* line-height: 24px; */
+/* height: 35px; */
+padding: 9px;
+color: #495057;
+border: 1px solid  #CED4DA;
+
+ border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+outline: none;
+}
+
+input[type=number]:focus {
+    border: 3px solid  #80BDFF;
+    
+  }
+
+  select:focus{
+    border: 3px solid  #80BDFF;
+  }
