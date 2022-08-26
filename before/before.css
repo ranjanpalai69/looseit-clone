@@ -10,13 +10,13 @@ html, body {
   }
 .bg-container {
     background-image: url(https://assets.loseit.com/website/onboarding/Wave.svg);
-    background-size:contain;
+    background-size:100%;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position:bottom;
     width:100vw;
     height:100vh;
     box-sizing:border-box;
-    position: fixed;
+    /* position: fixed; */
   }
 
   #vlogo{

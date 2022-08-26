@@ -18,6 +18,7 @@ button.addEventListener("click", function(e) {
         localStorage.setItem("loseit",JSON.stringify(obj))
         let altermsg= document.getElementById("alertmsg")
         altermsg.innerText =""
+        window.location.href="../height/height.html"
     }
     // console.log(sel_current, sel_goal, current, goal);
 
