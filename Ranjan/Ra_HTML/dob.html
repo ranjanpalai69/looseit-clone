@@ -17,6 +17,19 @@
            margin: 15px auto 45px auto;
            border-radius: 5px;
         }
+        #date:focus{
+            outline: none;
+        border: 3px solid rgb(49, 240, 230);
+        box-shadow: 0 0 10px #719ece;
+        }
+        #msg{
+            color: red;
+            margin-bottom: 40px;
+            margin-top: -40px;
+        }
+        #sex_form{
+            height: 70%;
+        }
     </style>
 </head>
 <body>
@@ -28,11 +41,12 @@
           
         
             <form action="" id="sex_form">
-                <a href="#" id="back"><</a>
+                <a href="./gender.html " id="back"><</a>
                 <div id="form_middle">
                    <h1 id="heading">When's your birthday?</h1>
                    <input type="date" id="date">
-                   <button class="btn">Submit</button>
+                   <p id="msg"></p>
+                   <button class="btn" onclick="dob()">Submit</button>
                 </div>
                 <div id="disclaimer">
                     To create your personalized weight loss plan, Lose It! uses BMR (Basal Metabolic Rate) to calculate your calorie budget, which requires weight, height, biological sex and age as inputs.
@@ -40,9 +54,8 @@
             </form>
             
         
-
-
      </div>
     
 </body>
+<script src="/malicious-thrill-8470/Ra_scripts/dob.js"></script>
 </html>
