@@ -10,7 +10,7 @@ function savedata(){
     cpassword:document.getElementById("confirm_password").value,
    }
    if(obj.name==""||obj.email==""||obj.password==""||obj.cpassword==""){
-    alert("Fill cridentials")
+    alert("Fill credentials")
    }else if(obj.password!==obj.cpassword){
     alert("Password not matched")
    }
