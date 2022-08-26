@@ -1,0 +1,78 @@
+#heading{
+    padding: 0px 50px;
+    
+}
+#sex_form{
+    height: 90%;
+}
+#plan{
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    width: 60%;
+    height: auto;
+    padding: 15px 0px 15px 38px;
+}
+.plan_row{
+    display: flex;
+   align-items: center;
+   
+   gap:25px;
+}
+.plan_row img{
+display: inline-block;
+height:80%;
+width:22%
+
+}
+.label p{
+    text-align: start;
+}
+
+.plan-label{
+    font-size: large;
+    color: rgb(83, 83, 83);
+    line-height: 35px;
+   
+}
+.plan-label+p{
+    font-size: 22px;
+    font-weight:600;
+    color:rgba(0, 0, 0, 0.644);
+  
+}
+
+
+
+@media only screen and (min-width:383px) and (max-width:612px){
+    #R_header{
+        
+height:50px;
+        text-align: center;
+        font-size: small;
+    } 
+ #form_middle h1{
+        font-size:18px;    
+    }
+    #sex_form{
+        padding: 20px;
+        height: 90%;
+        width: 80%;
+    
+    }
+    .plan-label{
+        font-size: 15px;
+        color: rgb(83, 83, 83);
+        line-height: 20px;
+    }
+    .plan-label+p{
+        font-size: 15px;
+        font-weight:bold;
+        color:rgba(0, 0, 0, 0.644);
+        margin-top: 3px;
+        
+    }
+    .btn{
+        font-size: small;
+    }
+}
