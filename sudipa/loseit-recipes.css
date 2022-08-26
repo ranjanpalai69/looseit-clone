@@ -1,0 +1,214 @@
+#navbar{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid orange; */
+    display: flex;
+
+}
+.left{
+    /* border: 1px solid teal; */
+    width: 50%;
+    width: 70%;
+
+}
+.right{
+    /* border: 1px solid teal; */
+    width: 50%;
+    width: 30%;
+    display: flex;
+    padding: 30px;
+    justify-content: flex-end;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+.sec{
+    /* padding-left: 35px; */
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: auto;
+}
+.sec:nth-child(4){
+    /* border: 1px solid red; */
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+#main{
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    padding-top: 10px;
+    /* border: 1px solid blue; */
+    margin-top: 60px;
+}
+#main>h1{
+    color: rgb(56, 56, 116);
+}
+#main>h2{
+    color: gray
+}
+#para{
+    height: 100px;
+    width: 70%;
+    /* border: 1px solid teal ; */
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding-left: 130px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-image: url(https://loseitblog.com/wp-content/uploads/2020/12/PatternSimplified.svg);
+    border-radius: 6px;
+    margin-bottom: 80px;
+}
+#para>a{
+    color: black;
+}
+#pic{
+    height: 2800px;
+    width: 79%;
+    /* border: 1px solid red; */
+    margin: auto;
+    gap:20px;
+    display: grid;
+     grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+#pic img:hover{
+    filter: brightness(70%);
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-30deg) saturate(500%) contrast(0.8);
+    transition: filter 0.25s ease;
+}
+
+.blog>u>h3{
+    cursor: pointer;
+}
+.blog>h3:hover{
+    filter: brightness(70%);
+    transition: filter 0.25s ease;
+}
+.blog{
+    display: grid;
+    border: 1px solid rgb(235, 232, 232);   
+}
+.blog>img{
+    width: 100%;
+    cursor: pointer;
+}
+#pic>div:nth-child(4){
+height: 330px;
+width: 100%;
+margin: auto;
+}
+
+#pic>div:nth-child(7){
+height: 330px;
+width: 100%;
+margin: auto;
+}
+#pic>div:nth-child(10){
+height: 330px;
+width: 100%;
+margin: auto;
+}
+#pic>div:nth-child(13){
+height: 330px;
+width: 100%;
+margin: auto;
+}
+#pic>div:nth-child(16){
+height: 330px;
+width: 100%;
+margin: auto;
+}
+#pic>div:nth-child(19){
+height: 330px;
+width: 100%;
+margin: auto;
+}
+#pic>div:nth-child(22){
+height: 330px;
+width: 100%;
+margin: auto;
+border: none;
+}
+#pic>div:nth-child(24){
+height: 330px;
+width: 100%;
+margin: auto;
+border: none;
+}
+#btn{
+    width: 15%;
+    /* border: 1px solid orange; */
+    margin: auto;
+    height: 50px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    
+  
+    
+}
+button{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   background-color: orange;
+   border: none;
+   color: white;
+   margin-top: 80px;
+  
+}
+#bottom{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+    background: #183962;
+   
+   }
+   .footer{
+    width: 80%;
+    height: 230px;
+    /* border: 1px solid red; */
+    color: white;
+    margin-left: 120px;
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+    
+   }
+
+   .footer>p{
+    color: white;
+   }
+  
+   #search{
+        background-color: skyblue;
+        width: 100px;
+        height: 40px;
+        border-radius: 0px;
+        margin-top: -20px;
+    
+   }
+   #sea{
+    border-radius: 0px;
+    height: 40px;
+   }
+   .logo1>img{
+        width: 20px;
+        height: 20px;
+        border: 0px solid red;
+        padding: 20px;
+        display: table;
+   }
+   .logo1{
+    display: flex;
+   }
