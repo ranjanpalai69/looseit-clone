@@ -1,3 +1,5 @@
+*{font-family: 'Avenir', Arial, sans-serif;}
+
 #navbar{
     width: 100%;
     height: 100px;
@@ -18,6 +20,7 @@
     display: flex;
     padding: 30px;
     justify-content: flex-end;
+    cursor: pointer;
 }
 .logo{
     width: 50px;
@@ -55,11 +58,11 @@
 }
 #para{
     height: 100px;
-    width: 70%;
+    width: 75%;
     /* border: 1px solid teal ; */
     margin:auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     padding-left: 130px;
     padding-top: 20px;
@@ -81,19 +84,28 @@
      grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(8,1fr);
 }
+.blog>u>h3{
+    margin-bottom: -15px;
+}
+.blog>h4{
+    margin-top: -15px;
+}
+.blog>u>h3,h4,p{
+    /* text-align: center; */
+    color: rgb(95, 90, 90);
+    margin-left: 7px;
+}
 #pic img:hover{
     filter: brightness(70%);
     filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-30deg) saturate(500%) contrast(0.8);
     transition: filter 0.25s ease;
 }
-
-.blog>u>h3{
-    cursor: pointer;
-}
-.blog>h3:hover{
+#pic h3:hover{
     filter: brightness(70%);
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-30deg) saturate(500%) contrast(0.8);
     transition: filter 0.25s ease;
 }
+
 .blog{
     display: grid;
     border: 1px solid rgb(235, 232, 232);   
@@ -103,13 +115,13 @@
     cursor: pointer;
 }
 #pic>div:nth-child(4){
-height: 330px;
+height: 350px;
 width: 100%;
 margin: auto;
 }
 
 #pic>div:nth-child(7){
-height: 330px;
+height: 350px;
 width: 100%;
 margin: auto;
 }
@@ -151,7 +163,7 @@ border: none;
     margin: auto;
     height: 50px;
     margin-bottom: 200px;
-    margin-top: 200px;
+    margin-top: 250px;
     
   
     
@@ -163,7 +175,7 @@ button{
    background-color: orange;
    border: none;
    color: white;
-   margin-top: 80px;
+   /* margin-top: 1px; */
   
 }
 #bottom{
