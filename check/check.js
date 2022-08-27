@@ -53,6 +53,7 @@ container.style.display="inline"
 }
 
 
+// <<<<<<< HEAD
 let dataLS= JSON.parse(localStorage.getItem("loseit"))
 console.log(dataLS)
 
@@ -73,6 +74,14 @@ para2.innerText=dataLS.finalDetails.weekly_weight_loss
 let para3=document.getElementById("plan_goal_date")
 para3.innerText=dataLS.finalDetails.goal_date
 
+// =======
+let signout=document.getElementById("signout");
+signout.addEventListener("click",logout);
+function logout(){
+  window.location.href="../landing page2.2/landing.html"
+  
+}
+// >>>>>>> 84108aa3f05a51d13924bd0e397219553d2e2b30
 
 
 

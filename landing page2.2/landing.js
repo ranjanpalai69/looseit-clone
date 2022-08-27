@@ -32,3 +32,9 @@ for(i=left; i<=right; i++){
 else
    return
 }
+
+let javed=()=>{
+window.location.href="../sudipa/lose.html"
+
+
+}

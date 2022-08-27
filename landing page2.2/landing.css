@@ -185,6 +185,7 @@ body {
 .j_twocontainer{
  text-align: center;
   width: 90%;
+  margin: auto;
   /* border:solid; */
 }
 
@@ -753,3 +754,17 @@ display: block;
   box-shadow: rgba(229, 229, 236, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 }
+#javed{
+
+margin-top: -15px;
+cursor: pointer;
+
+}
+
+#javed:hover{
+  box-shadow: rgba(229, 229, 236, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+
+
