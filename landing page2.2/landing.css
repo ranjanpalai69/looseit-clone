@@ -492,7 +492,9 @@ cursor:alias;
   ;
  }
 
-
+.j_Sign{
+  display: none;
+}
 @media screen and (min-width:768px)and (max-width:1062px){
 
 .j_junior{
@@ -566,6 +568,9 @@ cursor:alias;
  .j_asseenon img{
   height: 50%;
   width:25% ;
+ }
+ .j_Sign{
+  display: none;
  }
 }
 
@@ -722,5 +727,29 @@ display: block;
 .j_connet{
   flex-direction: column;
   font-size: 20px;
+}
+.j_Sign{
+  display:block;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  position: fixed;
+  background-color: white;
+  /* opacity: calc(0.5); */
+  top: 38rem;
+}
+.j_Sign button{
+  margin-top: 30px;
+  padding: 15px 50px;
+  border-radius: 5px;
+  background-color:#183962;
+  border: none;
+}
+.j_Sign button a{
+  text-decoration: none;
+  color: #fff;
+}
+.j_Sign button:hover{
+  box-shadow: rgba(229, 229, 236, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 }
