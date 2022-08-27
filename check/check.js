@@ -103,6 +103,10 @@ let rece=()=>{
   window.location.href="../sudipa/loseit-recipes.html"
 
 }
+let home=()=>{
+  window.location.href="../landing page2.2/landing.html"
+
+}
 
 
 let dataname= JSON.parse(localStorage.getItem("name"))
