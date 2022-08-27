@@ -1,3 +1,5 @@
+*{font-family: 'Avenir', Arial, sans-serif;}
+
 #navbar{
     width: 100%;
     height: 100px;
@@ -19,6 +21,7 @@
     display: flex;
     padding: 30px;
     justify-content: flex-end;
+    cursor: pointer;
 }
 .logo{
     width: 50px;
@@ -76,7 +79,7 @@
 }
 
 #pic{
-    height: 2800px;
+    height: 3000px;
     width: 79%;
     /* border: 1px solid red; */
     margin: auto;
@@ -86,13 +89,24 @@
     grid-template-rows: repeat(8,1fr);
     cursor: pointer;
 }
+.blog>u>h3,p,h4{
+    /* text-align: center; */
+    color: rgb(95, 90, 90);
+    margin-left: 8px;
+}
+.blog>u>h3{
+    margin-bottom: -10px;
+}
+.blog>h4{
+    color: orange;
+    margin-top: -8px;
+}
 #pic img:hover{
     filter: brightness(70%);
     filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-30deg) saturate(500%) contrast(0.8);
     transition: filter 0.25s ease;
 }
-#pic >u>h3{
-    cursor: pointer;
+#pic h3:hover{
     filter: brightness(70%);
     filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-30deg) saturate(500%) contrast(0.8);
     transition: filter 0.25s ease;
@@ -106,43 +120,43 @@
     width: 100%;
 }
 #pic>div:nth-child(4){
-height: 330px;
+height: 350px;
 width: 100%;
 margin: auto;
 }
 #pic>div:nth-child(7){
-height: 330px;
+height: 350px;
 width: 100%;
 margin: auto;
 }
 #pic>div:nth-child(10){
-height: 330px;
+height: 350px;
 width: 100%;
 margin: auto;
 }
 #pic>div:nth-child(13){
-height: 330px;
+height: 350px;
 width: 100%;
 margin: auto;
 }
 #pic>div:nth-child(16){
-height: 330px;
+height: 350px;
 width: 100%;
 margin: auto;
 }
 #pic>div:nth-child(19){
-height: 330px;
+height: 350px;
 width: 100%;
 margin: auto;
 }
 #pic>div:nth-child(22){
-height: 330px;
+height: 350px;
 width: 100%;
 margin: auto;
 border: none;
 }
 #pic>div:nth-child(24){
-height: 330px;
+height: 370px;
 width: 100%;
 margin: auto;
 border: none;
@@ -153,9 +167,13 @@ border: none;
     margin: auto;
     height: 50px;
     margin-bottom: 150px;
-    margin-top: -40px;  
-    cursor: pointer;
+    margin-top: -100px;  
 }
+/* #btn>button:hover{
+    filter: brightness(70%);
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-30deg) saturate(500%) contrast(0.8);
+    transition: filter 0.25s ease;
+} */
 button{
    width: 100%;
    height: 100%;
@@ -163,9 +181,11 @@ button{
    background-color: orange;
    border: none;
    color: white;
-   margin-top: 80px;
+   /* margin-top: 1px; */
+   cursor: pointer;
   
 }
+
 /* #share{
     width: 100%;
     height: 250px;
