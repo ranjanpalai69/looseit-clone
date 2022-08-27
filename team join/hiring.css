@@ -1,0 +1,441 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body {
+  margin: 0 auto;
+  height: 100%;
+  padding: 0;
+  font-family: Avenir, "Helvetica Neue", sans-serif;
+  color: #808284;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+.d_navbar {
+  width: 100%;
+  height: 110px;
+  /* border: solid; */
+  display: flex;
+  justify-content: space-between;
+}
+.d_img {
+  margin-left: 190px;
+}
+
+.d_img img {
+  width: 63%;
+  margin-top: 20px;
+}
+.d_login button {
+  margin-top: 30px;
+  margin-right: 220px;
+  padding: 10px 40px;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #ff9400;
+  border: none;
+  color: aliceblue;
+  border-radius: 5px;
+
+}
+.d_login button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+/* #d-header {
+   
+    
+} */
+#d-header {
+    background-image: url("https://assets.loseit.com/website/corporate/InteriorHeaderPattern.svg"), linear-gradient(0.25turn, #FF8D00, #FF9400);
+    background-position: 100% 50%;
+    background-size: 100% 500px;
+    background-repeat: repeat;
+    height: 300px;
+   text-align: center;
+}
+#d-header h1{
+    font-weight: 700;
+  padding-top:80px;
+    font-size: 70px;
+color: #fff;
+}
+#d-header button{
+    font-size: 15px;
+    padding: 15px 35px;
+    font-weight: 600;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+#d-header button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+#d_container{
+    width: 100%;
+    height: 900px;
+
+}
+.d-badges{
+    width: 100%;
+    height: 140px;
+    /* border:solid; */
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 50px;
+    
+
+}
+.d-badges .d-images{
+  padding-top: 30px;
+  height: 60%;
+    margin:0 15px;
+    margin-right: 15px;
+   
+}
+.d-badges .d-image{
+  height: 80%;
+  padding-top: 20px;
+ 
+}
+.d-badges .d-image+.d-image{
+  margin-left: 25px;
+}
+.j_best{
+  height: 86%;
+ padding-top: 7px;
+ margin: 0 20px;
+}
+.j_fire{
+  height: 77%;
+  padding-top: 10px;
+}
+.j_writingSection{
+ width: 43%;
+ margin:30px auto;
+ /* border: solid; */
+
+}
+.j_writingSection h2{
+  text-align: center;
+  font-size: 28px;
+  color: #183962;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.j_writingSection li {
+  font-size: 14px;
+  font-weight: 100;
+  color:black;
+  padding: 5px;
+}
+.j_writingSection ul{
+  margin-bottom: 20px;
+}
+.j_writingSection span{
+  color: #FF8D00;
+  font-size: 14px;
+  font-weight:600;
+}
+.j_writingSection p {
+  font-size: 14px;
+  font-weight: 100;
+  color:black;
+  padding: 9px;
+}
+.j-body{
+  height: 300px;
+  background-color: #183962;
+  color: #fff;
+  margin-bottom: -6%;
+}
+.dcontainer{
+padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.dcontainer h3{
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 500;
+ 
+}
+.dcontainer img{
+  width: 10%;
+}
+.dcontainer div{
+  width: 32%;
+}
+.dcontainer p{
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+}
+.dcontainer button{
+  padding: 12px 45px;
+  margin-top: 25px;
+  background-color: #FF9400;
+  border: none;
+  border-radius: 5px;
+}
+.dbutton{
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+
+}
+.dcontainer button:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.j_Openings {
+  text-align: center;
+  font-size: 2em;
+  color: #183962;
+  font-weight: 700;
+  padding-top: 130px;
+  margin-bottom: 20px;
+}
+.mj_content         {
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+  /* border: solid; */
+}
+.j_writingsection{
+  margin: 0;
+  height:1380px;
+  
+  
+  background-color: #f1f1f1;
+}
+.j-section{
+  width: 56%;
+  height:  auto;
+  margin: 90px auto;
+  /* border: solid; */
+}
+.mj_content p{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  font: size 14px; ;
+  color: #000000;
+}
+.mj_content a{
+  display: block;
+  text-decoration: none;
+  color: #FF9400;
+  font-size: 14px;
+  padding:12px 15px ;
+
+}
+.j_collapsible h3{
+  color: #183962;
+  font-weight: 500;
+  /* padding-top: -8%; */
+ 
+}
+.j_collapsible img{
+  padding: 0 15px;
+}
+.mj_content h4{
+  color: #000000;
+  font-weight: 520;
+}
+#photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+#photos img {
+  width: 33%;
+  margin: 0px 5px;
+  height: 100%;
+}
+.body{    padding: 100px 50px;
+  max-width: 650px;
+  margin: 0px auto;
+}
+
+.d_weightLoss {
+  height: 400px;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  /* border: solid red; */
+}
+.d_weightLoss h2 {
+  margin-top: 40px;
+  color: #183962;
+  font-weight:bold;
+  font-size: 28px;
+}
+
+.d_parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  margin-top: 45px;
+  /* border: solid red; */
+}
+.j_child{
+  width: 10%;
+  height:100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: none;
+  /* border: 1px solid red; */
+}
+.j_child img{
+  margin-top: 30px;
+width: 80%;
+height: 40%;
+}
+.j_child p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight:bold;
+  color: #000000;
+}
+#d_leftarrow,#d_rightarrow{
+  margin-left: 12px;
+  width: 3%;
+  margin-top: -6%;
+  display: inline-block;
+}
+#d_leftarrow button{
+ background-color:#fff ;
+  border: none;
+  font-weight:900;
+ color:#5e5757;
+  font-size: 40px;
+  cursor: pointer;
+
+}
+#d_rightarrow button{
+  border: none;
+  background-color:#fff ;
+  font-weight:900;
+  color:#5e5757;
+  font-size: 40px;
+  cursor: pointer;
+}
+#j_pages{    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;}
+.j_loseit {
+  padding: 100px 50px;
+  max-width: 650px;
+  margin: 0px auto;
+}
+.j_loseit h2{
+  text-align: center;
+  font-size: 2em;
+  color: #183962;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#j_pages img{
+  width: 100px;
+  margin: 0px 10px;
+}
+
+
+.j_playstore {
+  text-align: center;
+  padding: 50px 0 70px 0;
+  background-color: #f1f1f1;
+  background-image: url("https://assets.loseit.com/website/home/Pattern_50opacity_Long.svg");
+  background-size: cover;
+}
+.j_playstore h3 {
+  color: #ff9400;
+  font-size: 23px;
+  font-weight: 400;
+}
+.j_playstore a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.j_playstore img {
+  width: 90%;
+}
+
+.j_playstore div {
+  display: flex;
+  margin: 30px auto;
+  width: 30%;
+  height: 70px;
+}
+
+.j_footer {
+  background-color: #183962;
+  color: #fff;
+  width: 100%;
+  height: 400px;
+}
+.j_footer1st img {
+  width: 40%;
+  cursor: pointer;
+ 
+}
+.j_footer1st{
+  display: flex;
+  margin-left: 220px;
+  /* border: 2px solid white; */
+  padding-top: 60px;
+}
+.j_connet{
+  /* border: solid; */
+  display: flex;
+  
+}
+.j_connet h4{
+margin-left: 27px;
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 20px;
+cursor:alias;
+}
+.j_connet p{
+  margin-left: 27px;
+  
+  }
+  .j_connet p:hover{
+    color: #ff9400;
+    cursor: pointer;
+  }
+  .j_logofooter a{
+    
+    color: #fff;
+    text-decoration: none;
+  }
+  .j_logofooter{
+    margin-top: 15px;
+    /* border: solid; */
+    text-align: center;
+  }
+  .j_logofooter .fab{
+ font-size: 22px;
+ padding: 15px;
+  }
+
+ .j_logofooter a:hover{
+  color: #ff9400;
+  text-decoration: none
+  
+  
+  ;
+ }
