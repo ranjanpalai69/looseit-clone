@@ -1,0 +1,272 @@
+* {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    margin: 0px;
+  }
+
+#main{
+display: grid;
+grid-template-columns: repeat(2,450px);
+width: 90%;
+margin: auto;
+/* border: 2px solid black; */
+text-align: center;
+margin-top: 10px;
+padding: 30px;
+gap: 25px;
+justify-content: space-around;
+
+}
+
+#main>div{
+    border: 3px solid red;
+}
+
+
+#container img{
+    width: 65%;
+    border-radius: 10px;
+    margin-top: 10px;
+    /* display: ; */
+
+}
+#container p:hover{
+   color:  #fd7e14 ;
+}
+#container h4:hover{
+   color:  #fd7e14;
+}
+
+#container p{
+    font-size: 15px;
+    text-align: center;
+    /* width: 370px; */
+    margin: auto;
+    /* margin-top: 30px; */
+    line-height: 19.5px;
+    /* margin-bottom: 10px; */
+}
+#container h4{
+    font-size: 15px;
+    text-align: center;
+    /* width: 370px; */
+    margin: auto;
+    /* margin-top: 30px; */
+    line-height: 19.5px; 
+}
+#container{
+    padding: 10px;
+}
+input {
+    width: 350px;
+    font-size: 17px;
+    padding: 10px;
+    color: #343a40;
+    border: 1px solid #ced4da;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+  }
+
+  input[type="text"]:focus {
+    border: 3px solid #80bdff;
+  }
+
+  #vbutton1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    background: #ff9400;
+    border-color: #ff9400;
+    width: 200px;
+    /* margin: 10px auto; */
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+
+  #vbutton1:hover {
+    background: #fd7e14;
+  }
+
+#bg_image{
+
+    background-image: url(https://assets.loseit.com/website/onboarding/Wave.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* back */
+    height: 550px;
+
+}
+
+#container{
+
+    background: #f5f5f5;
+    border-radius: 10px;
+   /* width: 500px; */
+   transform-style: preserve-3d;
+    transform: translateZ(20px);
+    flex-wrap: wrap;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#vdone{
+    text-align: center;
+}
+
+#scontainer{
+  width:100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(107, 107, 158);
+  /* margin-top: -10px; */
+  /* margin-left: -10px; */
+  padding-right: 18px;
+ 
+ }
+ #snavbar{
+     display: flex;
+     width:auto;
+     margin: auto;
+     gap:100px;
+     font-size: 9pt;
+     color: #fff;
+     padding-left: 250px;
+
+ }
+ #list1{
+    display: flex;
+    gap:25px
+ }
+ #logo{
+     position:absolute;
+     top:10px;
+     left:180px
+
+ }
+ #logo>img{
+     width:60px;
+     /* height:90px */
+ }
+
+
+ @media screen and (min-width: 400px) and (max-width: 780px) {
+  #main{
+    display: flex;
+    /* grid-template-columns: repeat(2,450px); */
+    flex-direction: column;
+    /* grid-template-rows: repeat(2,450px); */
+    width: 60%;
+    margin: auto;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-top: 10px;
+    padding: 30px;
+    gap: 25px;
+    justify-content: space-around;
+    
+    }
+
+
+    #scontainer{
+      width:100%;
+      /* padding-top: 10px; */
+      /* padding-bottom: 10px; */
+      background-color: rgb(107, 107, 158);
+      /* padding-right: 18px; */
+      display: flex;
+      justify-content: center;
+     
+     }
+
+     #list1{
+      display: flex;
+      gap:25px;
+      margin: auto;
+      justify-content: center;
+      margin-right: 40px;
+   }
+   #logo{
+       position:absolute;
+       top:10px;
+       left:180px;
+       display: flex;
+       justify-content: left;
+   }
+   #logo>img{
+       width:60px;
+       position: relative;
+       right: 150px;
+       /* height:90px */
+      
+   }
+
+}
+
+
+.j_footer {
+    background-color: #183962;
+    color: #fff;
+    width: 100%;
+    height: 350px;
+  }
+  .j_footer1st img {
+    width: 40%;
+    cursor: pointer;
+   
+  }
+  .j_footer1st{
+    display: flex;
+    margin-left: 220px;
+    /* text-align: center; */
+    /* border: 2px solid white; */
+    padding-top: 60px;
+  }
+  .j_connet{
+    /* border: solid; */
+    display: flex;
+    /* margin-right: 0px; */
+    
+  }
+  .j_connet h4{
+  margin-left: 27px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor:alias;
+  }
+  .j_connet p{
+    margin-left: 27px;
+    /* margin-top: -15px; */
+    }
+    .j_connet p:hover{
+      color: #ff9400;
+      cursor: pointer;
+    }
+    .j_logofooter a{
+      
+      color: #fff;
+      text-decoration: none;
+    }
+    .j_logofooter{
+      margin-top: 15px;
+      /* border: solid; */
+      text-align: center;
+    }
+    .j_logofooter .fab{
+   font-size: 22px;
+   padding: 15px;
+    }
+  
+   .j_logofooter a:hover{
+    color: #ff9400;
+    text-decoration: none
+    
+    
+    ;
+   }
