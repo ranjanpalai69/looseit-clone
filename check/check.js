@@ -51,7 +51,12 @@ container.append(div);
 }
 
 
-
+let signout=document.getElementById("signout");
+signout.addEventListener("click",logout);
+function logout(){
+  window.location.href="../landing page2.2/landing.html"
+  
+}
 
 
 
