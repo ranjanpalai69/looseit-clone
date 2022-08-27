@@ -107,7 +107,6 @@ let rece=()=>{
 }
 let home=()=>{
   window.location.href="../landing page2.2/landing.html"
-
 }
 
 let dataname= JSON.parse(localStorage.getItem("name"))
