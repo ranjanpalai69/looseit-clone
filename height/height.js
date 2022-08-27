@@ -19,7 +19,8 @@ button.addEventListener("click", function (e) {
         dataStore["sel_height"] = sel_height
         localStorage.setItem("loseit", JSON.stringify(dataStore))
         let altermsg = document.getElementById("alertmsg")
-        altermsg.innerText = ""
+        altermsg.innerText = "";
+        window.location.href="http://127.0.0.1:5500/malicious-thrill-8470/Ranjan/Ra_HTML/gender.html";
     }
 
 });
