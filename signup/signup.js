@@ -18,6 +18,7 @@ function savedata(){
     data.push(obj);
     console.log(data);
     localStorage.setItem("user",JSON.stringify(data))
+    window.location.href="login.html"
    }
   
 }

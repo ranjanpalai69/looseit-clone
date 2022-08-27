@@ -19,11 +19,11 @@
     <div id="scontainer">
     <div id="snavbar">
         <div id="list1">
-            <label for="">Home</label>
-            <label for="">Goals</label>
-            <label for="">Community</label>
-            <label for="">Challenges</label>
-            <label for="">Insights</label>
+            <label for="" onclick="home()">Home</label>
+            <label for="" onclick="goal()">Goals</label>
+            <label for="" onclick="cummn()">Community</label>
+            <label for="" onclick="chal()">Challenges</label>
+            <label for="" onclick="rece()">Insights</label>
             <label for="">Forums</label>
             <label for="">Apps & Devices</label>
             <label for="">Messages</label>
@@ -48,7 +48,46 @@
         <div id="container" data-tilt data-tilt-scale="1.1"
 
         ></div>
-        <div></div>
+        <div>
+              <form action="" id="sex_form">
+                <a href="./dob.html" id="back"></a>
+                <div id="form_middle">
+                    <div id="plan" data-tilt data-tilt-scale="1.1">
+                       <h1 id="heading">Your personal weight loss plan is ready.</h1>
+                    <div class="plan_row" id="calorie_budget">
+                        <img src="https://assets.loseit.com/website/onboarding/PlanWatermelon.svg"  alt="watermelon">
+                        <div class="label">
+                            <p class="plan-label">Daily calorie budget:</p>
+                           <p id="plan_daily_budget" class="plan-data"></p> 
+                        </div>
+                    </div>
+                    <div class="plan_row" id="weight_loss">
+                        <img src="	https://assets.loseit.com/website/onboarding/PlanAward.svg"   alt="award" >
+                        <div class="label">
+                            <p  class="plan-label">Total weight loss:</p>
+                           <p id="plan_total_weight_loss" class="plan-data"></p> 
+                        </div>
+                    </div>
+                    <div class="plan_row" id="weekly_weight_loss">
+                        <img src="https://assets.loseit.com/website/onboarding/PlanCalendar.svg"  alt="calender" >
+                        <div class="label">
+                            <p class="plan-label">Weekly weight loss:</p>
+                           <p id="plan_weekly_weight_loss" class="plan-data"></p> 
+                        </div>
+                    </div>
+                    <div class="plan_row" id="goal_date">
+                        <img src="https://assets.loseit.com/website/onboarding/PlanStar.svg"  alt="star" >
+                        <div class="label">
+                            <p class="plan-label">Goal Date:</p>
+                           <p id="plan_goal_date" class="plan-data"></p> 
+                        </div>
+                    </div>
+                   </div>
+                   <!-- <button class="btn" onclick="forward()">Get Lose It!</button> -->
+                </div>
+                
+            </form>
+        </div>
 </div>
     
 </div>

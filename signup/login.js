@@ -23,7 +23,7 @@ function final(){
    }
 }
 function entry(){
-    window.location.href="result.html"
+    window.location.href="../check/check.html"
 }
 document.getElementById("signup").addEventListener("click",function(){
     window.location.href="signup.html"

@@ -13,6 +13,7 @@ let openSearch = async () => {
     console.log("error");
     container.innerHTML=null;
     alert("Sorry for inconvenice, this item is not available ☹")
+    container.style.display="none"
   }
 };
 
@@ -21,6 +22,7 @@ let container = document.getElementById("container");
 function appendData({category,label,image,nutrients: { CHOCDF, ENERC_KCAL, FAT, FIBTG, PROCNT }}){
 // console.log(data)
 container.innerHTML=null;
+
 
 let div = document.createElement("div");
 let amt=document.createElement("p")
@@ -46,12 +48,55 @@ nut4.innerText = `Protein - ${PROCNT} %`;
 
 div.append(amt,img,cat, lab, nut, nut1, nut2, nut3, nut4);
 container.append(div);
-
+container.style.display="inline"
 
 }
 
 
+let dataLS= JSON.parse(localStorage.getItem("loseit"))
+console.log(dataLS)
+
+
+let para= document.getElementById("plan_daily_budget")
+para.innerText=dataLS.finalDetails.daily_calorie_budget+"  Calories"
+
+let para1=document.getElementById("plan_total_weight_loss")
+para1.innerText=dataLS.finalDetails.total_weight_loss+"  kilograms"
+if(dataLS.finalDetails.total_weight_loss==""){
+  document.getElementById("weight_loss").innerHTML=null;
+}
+
+
+let para2=document.getElementById("plan_weekly_weight_loss")
+para2.innerText=dataLS.finalDetails.weekly_weight_loss
+
+let para3=document.getElementById("plan_goal_date")
+para3.innerText=dataLS.finalDetails.goal_date
 
 
 
 
+let goal=()=>{
+  window.location.href="../before/before.html"
+}
+
+let cummn=()=>{
+
+  window.location.href="../sudipa/nutrition-fitness.html"
+}
+
+let chal=()=>{
+
+  window.location.href="../sudipa/lose.html"
+}
+
+let rece=()=>{
+  window.location.href="../sudipa/loseit-recipes.html"
+
+}
+
+
+let dataname= JSON.parse(localStorage.getItem("name"))
+let name=document.getElementById("name")
+name.innerText=dataname
+name.style.color=" #f7941d"

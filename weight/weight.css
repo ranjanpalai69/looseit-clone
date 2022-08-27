@@ -9,7 +9,7 @@ body {
   background-image: url(https://assets.loseit.com/website/onboarding/Wave.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 480px;
+  height: 100vh;
   /* width: 100%; */
 }
 
