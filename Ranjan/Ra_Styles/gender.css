@@ -22,6 +22,7 @@
     padding-bottom: 100px;
     height: 100vh;
     text-align: center;
+   
 }
 #sex_form{
     height: 65%;
@@ -51,6 +52,7 @@
     flex-direction: column;
     justify-content: center;
     /* padding-bottom: 50px; */
+    margin-top: 50px;
 }
 #heading{
     color: #173962;
