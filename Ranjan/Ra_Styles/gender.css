@@ -15,12 +15,23 @@
     display: flex;
     justify-content: center;
     background-image: url(https://assets.loseit.com/website/onboarding/Wave.svg);
+/* <<<<<<< HEAD */
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: bottom;
   /* back */
   height: 550px;
   /* width:5100%; */
+/* ======= */
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: 100% auto;
+    background-position: bottom center;
+    padding-bottom: 100px;
+    height: 100vh;
+    text-align: center;
+   
+/* >>>>>>> 79069dd3948a7c2d12c43422333ffdd3c5f1f405 */
 }
 #sex_form{
     width: 500px;
@@ -51,6 +62,7 @@
     flex-direction: column;
     justify-content: center;
     /* padding-bottom: 50px; */
+    margin-top: 50px;
 }
 #heading{
     color: #173962;
