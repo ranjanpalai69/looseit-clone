@@ -1,17 +1,35 @@
 #heading{
-    padding: 0px 50px;
+    /* padding: 0px 50px; */
+    color: #173962;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 20px 0;
+    text-align: center;
+    width: 400px;
+    margin: auto;
     
 }
 #sex_form{
-    height: 90%;
+    /* height: 90%; */
+    width: 450px;
+    margin: auto;
+    /* border: 2px solid slateblue; */
+    text-align: center;
+    position: relative;
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 30px;
 }
 #plan{
     display: flex;
     flex-direction: column;
-    margin: 15px auto;
+    /* margin: 15px auto;
+     */
+     justify-content: center;
     width: 60%;
     height: auto;
-    padding: 15px 0px 15px 38px;
+    margin: auto;
+    /* padding: 15px 0px 15px 38px; */
 }
 .plan_row{
     display: flex;
@@ -20,9 +38,9 @@
    gap:25px;
 }
 .plan_row img{
-display: inline-block;
-height:80%;
-width:22%
+/* display: inline-block; */
+/* height:80%; */
+width:15%
 
 }
 .label p{
@@ -41,8 +59,19 @@ width:22%
     color:rgba(0, 0, 0, 0.644);
   
 }
-
-
+#back{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    color: #173962;
+    cursor: pointer;
+    font-size: 20px;
+}
+#form_middle img{
+margin: 2px;
+}
 
 @media only screen and (min-width:383px) and (max-width:612px){
     #R_header{
@@ -54,11 +83,6 @@ height:50px;
  #form_middle h1{
         font-size:18px;    
     }
-    #sex_form{
-        padding: 20px;
-        height: 90%;
-        width: 80%;
-    
     }
     .plan-label{
         font-size: 15px;
@@ -75,4 +99,13 @@ height:50px;
     .btn{
         font-size: small;
     }
+
+
+#button1{
+    margin-bottom: 15px;
+  
+}
+a{
+ text-decoration: none;
+ color: white;
 }

@@ -146,8 +146,3 @@ finalDetails["daily_calorie_budget"]=val;
 
 }
 
-
-function forward(){
-    event.preventDefault();
-    window.location.href="http://127.0.0.1:5500/malicious-thrill-8470/signup/signup.html";
-}

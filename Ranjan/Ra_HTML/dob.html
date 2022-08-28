@@ -1,61 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Get Started - Lose It!</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,500,700,900" rel="stylesheet">
-    <link rel="icon" href="https://d3hsih69yn4d89.cloudfront.net/favicon.ico" type="image/x-icon" >
-    <link rel="stylesheet" href="/malicious-thrill-8470/Ranjan/Ra_Styles/gender.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300,500,700,900"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://d3hsih69yn4d89.cloudfront.net/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="/malicious-thrill-8470/Ranjan/Ra_Styles/gender.css"
+    />
     <style>
-        #date{
-            width: 80%;
-            padding: 8px ;
-            font-size: larger;
-            text-align: center;
-           margin: 15px auto 45px auto;
-           border-radius: 5px;
-        }
-        #date:focus{
-            outline: none;
-        border: 3px solid rgb(49, 240, 230);
-        box-shadow: 0 0 10px #719ece;
-        }
-        #msg{
-            color: red;
-            margin-bottom: 40px;
-            margin-top: -40px;
-        }
-        #sex_form{
-            height: 70%;
-        }
-    </style>
-</head>
-<body>
-    <div id="R_header">
-      <a href="#" id="logo_link"><img src="https://assets.loseit.com/website/corporate/LoseIt_Logo_NoTagline_FullColor.svg" alt="Loose_it Logo"></a>
-     </div>
-
-     <div id="R_content">
-          
-        
-            <form action="" id="sex_form">
-                <a href="./gender.html " id="back"><</a>
-                <div id="form_middle">
-                   <h1 id="heading">When's your birthday?</h1>
-                   <input type="date" id="date">
-                   <p id="msg"></p>
-                   <button class="btn" onclick="dob()">Submit</button>
-                </div>
-                <div id="disclaimer">
-                    To create your personalized weight loss plan, Lose It! uses BMR (Basal Metabolic Rate) to calculate your calorie budget, which requires weight, height, biological sex and age as inputs.
-                </div>
-            </form>
-            
-        
-     </div>
+      #msg {
+        color: red;
+        /* margin-bottom: 40px; */
+        /* margin-top: -40px; */
+      }
+      #sex_form {
+        height: 70%;
+      }
+      #date {
+        width: 400px;
+        font-size: 17px;
+        padding: 10px;
+        color: #343a40;
+        border: 1px solid #ced4da;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        outline: none;
+        text-align: center;
+        margin: auto;
+      }
+      #date:focus {
+    border: 3px solid  #80BDFF;
     
-</body>
-<script src="/malicious-thrill-8470/Ra_scripts/dob.js"></script>
+  }
+   #btn{
+    margin-top: 40px;
+  }
+  .disclaimer{
+    font-size: 13px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 370px;
+  margin: auto;
+  margin: 30px auto;
+  }
+  .class_form{
+    width: 470px;
+  margin: auto;
+  border: 2px solid slateblue;
+  text-align: center;
+  position: relative;
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+
+
+  }
+    </style>
+  </head>
+  <body>
+    <div id="R_header">
+      <a href="#" id="logo_link"
+        ><img
+          src="https://assets.loseit.com/website/corporate/LoseIt_Logo_NoTagline_FullColor.svg"
+          alt="Loose_it Logo"
+      /></a>
+    </div>
+
+    <div id="R_content">
+      <form action="" id="sex_form">
+        <a href="./gender.html " id="back"><</a>
+        <div id="form_middle">
+          <h1 id="heading">When's your birthday?</h1>
+          <input type="date" id="date" />
+          <p id="msg"></p>
+          <button class="btn" id="btn" onclick="dob()">Continue</button>
+        </div>
+        <div class="disclaimer">
+          To create your personalized weight loss plan, Lose It! uses BMR (Basal
+          Metabolic Rate) to calculate your calorie budget, which requires
+          weight, height, biological sex and age as inputs.
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="/malicious-thrill-8470/Ra_scripts/dob.js"></script>
 </html>

@@ -38,3 +38,8 @@ window.location.href="../sudipa/lose.html"
 
 
 }
+let jawed=()=>{
+
+window.location.href="../before/before.html"
+
+}

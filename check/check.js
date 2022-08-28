@@ -78,7 +78,9 @@ para3.innerText=dataLS.finalDetails.goal_date
 let signout=document.getElementById("signout");
 signout.addEventListener("click",logout);
 function logout(){
+  dataLS.name=""
   window.location.href="../landing page2.2/landing.html"
+
   
 }
 // >>>>>>> 84108aa3f05a51d13924bd0e397219553d2e2b30
