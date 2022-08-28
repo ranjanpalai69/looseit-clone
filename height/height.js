@@ -20,7 +20,7 @@ button.addEventListener("click", function (e) {
         localStorage.setItem("loseit", JSON.stringify(dataStore))
         let altermsg = document.getElementById("alertmsg")
         altermsg.innerText = "";
-        window.location.href="http://127.0.0.1:5500/malicious-thrill-8470/Ranjan/Ra_HTML/gender.html";
+        window.location.href="../Ranjan/Ra_HTML/gender.html"
     }
 
 });
