@@ -84,9 +84,9 @@ function logout(){
   
 }
 // >>>>>>> 84108aa3f05a51d13924bd0e397219553d2e2b30
-// let home=()=>{
-//   window.location.href="../landing page2.2/landing.html"
-// }
+let goHome=()=>{
+  window.location.href="../landing page2.2/landing.html"
+}
 
 
 let goal=()=>{
